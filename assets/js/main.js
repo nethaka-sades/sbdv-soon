@@ -10,6 +10,9 @@
 
 	var	$body = document.querySelector('body');
 
+	window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+	window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+
 	// Methods/polyfills.
 
 		// classList | (c) @remy | github.com/remy/polyfills | rem.mit-license.org
